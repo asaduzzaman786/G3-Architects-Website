@@ -4,6 +4,10 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+/* body{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
 
 a{
     text-decoration: none;
@@ -71,8 +75,49 @@ ul li a{
 }
 
 
+main{
+    max-width:1440px;
+    margin: 0 auto;
+}
 
+.team-container{
+    display: flex;
+    align-items: center;
+}
 
+.team-img-container img{
+    width: 100%;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.team-text-container{
+    padding-left:70px ;
+    padding-right: 70px;
+}
+.team-text-container h3{
+    font-size: 2.8rem;
+}
+.team-text-container P{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.quick{
+    color: #727272;
+    font-weight: 500;
+}
+
+.features{
+    color: #FF900E;
+    font-weight: 700;
+}
 
 
 
