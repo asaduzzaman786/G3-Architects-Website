@@ -203,6 +203,15 @@ main {
     width: 165px;
 }
 
+footer{
+    background-color: #FFF4E7;
+}
+footer p{
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    padding: 30px 0px;
+}
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
